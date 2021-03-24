@@ -1,0 +1,415 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Quickstart - EKA2L1</title>
+<meta name="description" content="An Experimental Symbian OS Emulator">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="EKA2L1">
+<meta property="og:title" content="Quickstart">
+<meta property="og:url" content="https://12z1.com/quickstart/">
+
+
+  <meta property="og:description" content="An Experimental Symbian OS Emulator">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://12z1.com/quickstart/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "https://12z1.com/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="EKA2L1 Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          EKA2L1
+          
+        </a>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	  
+        <select class="langpick" data-width="fit" style="float:right; display: inline;">
+        
+          <option value='/quickstart/'
+            selected>English</option>
+        
+          <option value='/vi/quickstart/'
+            >Tiếng Việt</option>
+        
+          <option value='/es/quickstart/'
+            >Español</option>
+        
+          <option value='/pt-br/quickstart/'
+            >Português</option>
+        
+          <option value='/ru/quickstart/'
+            >Русский</option>
+        
+          <option value='/zh-cn/quickstart/'
+            >简体中文</option>
+        
+        </select>
+	  
+        <script>		
+        $(function(){
+            $(document).on('change', '.langpick', function(obj) {
+                obj.preventDefault();
+                window.location = $(this).find('option:selected').val();
+            });
+        });
+        </script>
+	  
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">
+				
+					Home
+				</a>
+            </li><li class="masthead__menu-item">
+              <a href="/download/">
+				
+					Download
+				</a>
+            </li><li class="masthead__menu-item">
+              <a href="/quickstart/">
+				
+					Quickstart
+				</a>
+            </li><li class="masthead__menu-item">
+              <a href="/screenshots/">
+				
+					Screenshots
+				</a>
+            </li><li class="masthead__menu-item">
+              <a href="/posts/">
+				
+					Posts
+				</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/EKA2L1/EKA2L1">
+				
+					GitHub
+				</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Quickstart">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Quickstart
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#requirements">Requirements</a>
+    <ul>
+      <li><a href="#for-pc-version">For PC version:</a>
+        <ul>
+          <li><a href="#minimum">Minimum</a></li>
+          <li><a href="#recommended">Recommended</a></li>
+        </ul>
+      </li>
+      <li><a href="#for-android-version">For Android version:</a>
+        <ul>
+          <li><a href="#minimum-1">Minimum</a></li>
+          <li><a href="#recommended-1">Recommended</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#setup">Setup</a>
+    <ul>
+      <li><a href="#you-need-a">You need a:</a></li>
+      <li><a href="#setting-up">Setting up:</a></li>
+      <li><a href="#installing-new-device-on-eka2l1">Installing new device on EKA2L1</a></li>
+      <li><a href="#change-data-directory">Change data directory:</a></li>
+    </ul>
+  </li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p>Please utilise the <em>Table of Contents</em> by the right to traverse to the section you need.</p>
+
+<h1 id="requirements">Requirements</h1>
+
+<h2 id="for-pc-version">For PC version:</h2>
+
+<h3 id="minimum">Minimum</h3>
+
+<ul>
+  <li><strong>OS:</strong> Using a <strong>64-bit OS</strong>. For <strong>Windows</strong>, you must have from <em>Windows 7</em> and upper</li>
+  <li><strong>Processor:</strong> Any 64-bit CPU from around 2007, starting from <strong>Core 2 Duo E4300</strong></li>
+  <li><strong>Memory:</strong> 2GB of RAM at minimum</li>
+  <li><strong>Graphics card:</strong> Any OpenGL 3.1 compatible GPU or greater.</li>
+</ul>
+
+<h3 id="recommended">Recommended</h3>
+
+<ul>
+  <li><strong>OS:</strong> Using a <strong>64-bit OS</strong>. For <strong>Windows</strong>, it’s recommended to use <em>Windows 10</em></li>
+  <li><strong>Processor:</strong> Any Intel or AMD CPU with 4 cores and upper</li>
+  <li><strong>Memory:</strong> 4GB of RAM or more</li>
+  <li><strong>Graphics card:</strong> Any OpenGL 3.3 compatible GPU or greater.</li>
+</ul>
+
+<h2 id="for-android-version">For Android version:</h2>
+
+<h3 id="minimum-1">Minimum</h3>
+
+<ul>
+  <li><strong>OS:</strong> Android 5.0 32-bit</li>
+  <li><strong>Processor:</strong> Any ARMv7 CPU or upper. <strong>ARMv6 and down are not supported!</strong></li>
+  <li><strong>Memory:</strong> 2GB of RAM at minimum</li>
+  <li><strong>Graphics card:</strong> Any OpenGL ES 3.0 compatible GPU or greater</li>
+</ul>
+
+<h3 id="recommended-1">Recommended</h3>
+<ul>
+  <li><strong>OS:</strong> Android 7.0 64-bit (32-bit is experimental)</li>
+  <li><strong>Processor:</strong> An ARMv8 CPU</li>
+  <li><strong>Memory:</strong> 4GB of RAM or more</li>
+  <li><strong>Graphics card:</strong> Any OpenGL ES 3.2 compatible GPU or greater</li>
+</ul>
+
+<h1 id="setup">Setup</h1>
+<h2 id="you-need-a">You need a:</h2>
+<ul>
+  <li>ROM (any devices).</li>
+  <li>A repackage of the Z drive (the same device as where the ROM was dumped). See <a href="https://github.com/EKA2L1/EKA2L1/wiki/Dumping-the-ROM-and-ROFS">Dumping section on Wiki</a> to find out how to dump it.</li>
+</ul>
+
+<h2 id="setting-up">Setting up:</h2>
+<ul>
+  <li>Build or <a href="https://12z1.com/download/">download</a> EKA2L1.</li>
+  <li>You can launch the EKA2L1 directly and interacts with emulator through GUI, or interacts directly through command line.</li>
+  <li>Use –help if you want to interact through command lines and need list of commands.</li>
+  <li>Install new device through Files/Install device.</li>
+</ul>
+
+<h2 id="installing-new-device-on-eka2l1">Installing new device on EKA2L1</h2>
+<ul>
+  <li>EKA2L1 has a GUI to install new device. With the GUI, go to Files/Install device.
+<img src="https://camo.githubusercontent.com/08fa49e5578f4045abc98a0cec22bd4bb8cc52480eb3ffab5ed3bee28f7b0e0c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3536353139363435373433353539343735352f3730303235303631373233383635303937312f756e6b6e6f776e2e706e67" alt="installdevice" /></li>
+  <li>Your companion En should guide you through the installation. If a <strong>sudden crash</strong> appears or <strong>device revert installation</strong> because of <strong>falsify reason</strong>, please <strong>contact the developer</strong> for support and fixes if neccessary.
+    <ul>
+      <li>If part like determine the Symbian version failed, you should also contact the developers to help improve this automated process.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="change-data-directory">Change data directory:</h2>
+<ul>
+  <li>EKA2L1 try to store data within a single folder. By default it’s a folder named “data” in the same directory as the executable. You can change the path through GUI in File/Preferences, or change it in <strong>config.yml</strong> with the key <strong>data-storage</strong>.
+    <ul>
+      <li>Note that this does not move the data folder. You have to move it yourself.</li>
+    </ul>
+  </li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/eka2l1/eka2l1" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCCdPQT6Le2xw_z9cutkVwyA" rel="nofollow noopener noreferrer"><i class="fab fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+        
+      
+        
+          <li><a href="mailto:cc@12z1.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope" aria-hidden="true"></i> Mail</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+	
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 EKA2L1. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
